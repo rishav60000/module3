@@ -3,7 +3,7 @@ b=[0]*1
 C=0
 k=12
 i=0
-while i<len(a)-1:
+while i<4:
     j=i+1
     if a[i]+a[j]==12:
         b[C]=a[i],a[j]
